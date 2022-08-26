@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://icon.png" type="Texture" id=1]
+
+[node name="Marketing" type="Node2D" groups=["Marketing"]]
+
+[node name="Icon" type="Sprite" parent="."]
+self_modulate = Color( 0.882353, 0.196078, 0.870588, 1 )
+position = Vector2( 562, 277 )
+scale = Vector2( 9.75, 5.4375 )
+texture = ExtResource( 1 )
